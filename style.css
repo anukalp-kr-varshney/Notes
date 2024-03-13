@@ -1,0 +1,101 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: lightcyan;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.title h1{
+    font-size: 35px;
+    font-weight: 500;
+    border-bottom: 4px solid #333;
+}
+
+.perks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.perks h1{
+    font-size: 30px;
+    font-weight: 500;
+    border-bottom: 4px solid lightcyan;
+    margin-bottom: 120px;
+}
+
+.notes-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notes-title h1{
+    font-size: 30px;
+    font-weight: 500;
+    border-bottom: 4px solid lightcyan;
+    margin-bottom: 20px;
+}
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -11px;
+}
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+.btns button{
+    font-size: 25px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    background: lightblue;
+    border: 2px solid grey;
+    margin-bottom: 90px;
+}
+#last{
+    margin-bottom: 200px;
+}
+
+
+
+
+
+@media (max-width: 375px){
+    .title h1{
+        border-bottom: none;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 320px){
+    .title h1{
+        border-bottom: none;
+        font-size: 30px;
+    }
+}
